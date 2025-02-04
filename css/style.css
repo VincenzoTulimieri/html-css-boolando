@@ -27,6 +27,7 @@ body {
 #intestazione{
     background-color: #ff6900;
     height: 70px;
+    margin-bottom: 60px;
 
 }
 nav{
@@ -65,10 +66,16 @@ img{
 .riga{
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
 
 }
 .colonna{
-    width: calc(100% / 3);
     flex-shrink: 0;
 }
+.colonna img{
+    width: 100%;
+    max-height: 640px;
+    height: auto;
+      
+ }
 
