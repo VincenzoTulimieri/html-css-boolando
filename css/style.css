@@ -12,10 +12,63 @@ body {
 
 
 
+
+
+
+
+/*utilities classes*/
+.icon{
+    color: #ffffff;
+    gap: 20px;
+}
+
+
 /*header*/
+#intestazione{
+    background-color: #ff6900;
+    height: 70px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 19px;
+    
+    
+}
+nav > div{
+    height: 30px;
+    display: flex;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+
+/*da rimuovere*/
+.debug{
+    background-color: aqua;
+}
 
 
 
+/*main*/
 
 
+.container-shop{
+    width: calc(100% - 30%);
+    margin: 0 auto;
+
+}
+
+.riga{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.colonna{
+    width: calc(100% / 3);
+    flex-shrink: 0;
+}
 
