@@ -17,38 +17,43 @@ body {
 
 
 /*utilities classes*/
-.icon{
+.icon {
     color: #ffffff;
     gap: 20px;
 }
 
 
 /*header*/
-#intestazione{
+#intestazione {
     background-color: #ff6900;
     height: 70px;
     margin-bottom: 60px;
-
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-top: 19px;
-    
-    
+
+
 }
-nav > div{
+
+nav>div {
     height: 30px;
     display: flex;
 }
-img{
+
+img {
     height: 100%;
     width: 100%;
 }
 
 /*da rimuovere*/
-.debug{
+.debug {
     background-color: aqua;
 }
 
@@ -57,25 +62,64 @@ img{
 /*main*/
 
 
-.container-shop{
+.container-shop {
     width: calc(100% - 30%);
     margin: 0 auto;
+    display: flex;
+    align-items: center;
 
 }
 
-.riga{
+.riga {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
 
 }
-.colonna{
+
+.colonna {
+    position: relative;
     flex-shrink: 0;
 }
-.colonna img{
+
+.colonna img {
     width: 100%;
     max-height: 640px;
-    height: auto;
-      
- }
+}
 
+span {
+    color: #ff0000;
+    margin-right: 5px;
+}
+
+.sconto {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 6px 6px;
+    position: absolute;
+    bottom: 123px;
+}
+
+.sostenibilità {
+    background-color: #008000;
+    color: #ffffff;
+    padding: 6px;
+    position: absolute;
+    bottom: 123px;
+    left: 57px;
+}
+
+.sostenibilità.last {
+    left: 0;
+}
+
+.heart {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 15px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+/*footer*/
