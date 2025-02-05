@@ -8,14 +8,6 @@ body {
     font-family: sans-serif;
 }
 
-
-
-
-
-
-
-
-
 /*utilities classes*/
 .icon {
     color: #ffffff;
@@ -60,7 +52,7 @@ img {
 
 
 /*main*/
-main{
+main {
     margin-bottom: 50px;
 }
 
@@ -88,7 +80,10 @@ main{
 .colonna img {
     width: 100%;
     max-height: 640px;
+
+
 }
+
 
 span {
     color: #ff0000;
@@ -134,37 +129,40 @@ span {
 
 
 /*footer*/
-footer{
-    background-color: #1a1a1a; 
+footer {
+    background-color: #1a1a1a;
     height: 110px;
     display: flex;
     justify-content: center;
 }
 
 
-#fine{
+#fine {
     width: 1370px;
     height: 110px;
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
-.informazioni{
-color: #ffffff;
-}
-.social{
+.informazioni {
     color: #ffffff;
 }
-.social p{
+
+.social {
+    color: #ffffff;
+}
+
+.social p {
     font-size: 12px;
     padding-bottom: 10px;
 }
-.informazioni p{
+
+.informazioni p {
     font-size: 12px;
 }
-.flex{
+
+.flex {
     display: flex;
     gap: 10px;
 }
-
