@@ -81,9 +81,15 @@ main {
     width: 100%;
     max-height: 640px;
 
-
 }
-
+.foto-B{
+    position: absolute;
+    left: 0;
+    opacity: 0;
+}
+.foto-B:hover{
+    opacity: 1;
+}
 
 span {
     color: #ff0000;
